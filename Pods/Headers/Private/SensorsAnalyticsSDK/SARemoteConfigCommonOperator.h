@@ -1,0 +1,1 @@
+../../../SensorsAnalyticsSDK/SensorsAnalyticsSDK/RemoteConfig/SARemoteConfigCommonOperator.h

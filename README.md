@@ -1,0 +1,2 @@
+# StarNovelX
+ A Simple reader

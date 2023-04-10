@@ -1,0 +1,1 @@
+../../../SensorsAnalyticsSDK/SensorsAnalyticsSDK/ChannelMatch/SensorsAnalyticsSDK+SAChannelMatch.h

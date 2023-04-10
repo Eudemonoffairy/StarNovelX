@@ -1,0 +1,1 @@
+../../../SensorsAnalyticsSDK/SensorsAnalyticsSDK/AutoTrack/AppClick/Gesture/Processor/SAGestureViewProcessorFactory.h

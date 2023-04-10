@@ -1,0 +1,1142 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75BA2FCC0D9BD6C8F48BF43B /* libPods-StarNovelX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EED5F26339838F9B2DEAC1 /* libPods-StarNovelX.a */; };
+		CD1C6FD628C324DA0025F687 /* WitBookShelfDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1C6FD528C324DA0025F687 /* WitBookShelfDataBase.m */; };
+		CD25284928C816D700D40900 /* WitCatalogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25284828C816D700D40900 /* WitCatalogModel.m */; };
+		CD25284C28C82B5800D40900 /* WitCatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25284B28C82B5800D40900 /* WitCatalogViewController.m */; };
+		CD25284F28C83B4100D40900 /* WitPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25284E28C83B4100D40900 /* WitPageViewController.m */; };
+		CD25285228C846DC00D40900 /* WitBookContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25285128C846DC00D40900 /* WitBookContentViewController.m */; };
+		CD25285528C848A000D40900 /* WitPageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25285428C848A000D40900 /* WitPageContentView.m */; };
+		CD25285828C8495800D40900 /* WitProcessResources.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25285728C8495800D40900 /* WitProcessResources.m */; };
+		CD27E9E428CA1B390086F29B /* WitInitApp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD27E9E328CA1B390086F29B /* WitInitApp.m */; };
+		CD27E9E728CA49C30086F29B /* WitTopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CD27E9E628CA49C30086F29B /* WitTopMenu.m */; };
+		CD27E9EA28CA49F60086F29B /* WitMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD27E9E928CA49F60086F29B /* WitMenuViewController.m */; };
+		CD27E9ED28CA4A1A0086F29B /* WitBottomMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CD27E9EC28CA4A1A0086F29B /* WitBottomMenu.m */; };
+		CD27E9F028CA4A330086F29B /* WitMoreMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CD27E9EF28CA4A330086F29B /* WitMoreMenu.m */; };
+		CD2DB72A28AA963E005CB62C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2DB72928AA963E005CB62C /* AppDelegate.m */; };
+		CD2DB72D28AA963E005CB62C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2DB72C28AA963E005CB62C /* SceneDelegate.m */; };
+		CD2DB73028AA963F005CB62C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2DB72F28AA963F005CB62C /* ViewController.m */; };
+		CD2DB73328AA963F005CB62C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2DB73128AA963F005CB62C /* Main.storyboard */; };
+		CD2DB73528AA9641005CB62C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2DB73428AA9641005CB62C /* Assets.xcassets */; };
+		CD2DB73828AA9641005CB62C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2DB73628AA9641005CB62C /* LaunchScreen.storyboard */; };
+		CD2DB73B28AA9641005CB62C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2DB73A28AA9641005CB62C /* main.m */; };
+		CD2DB74528AA9641005CB62C /* StarNovelXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2DB74428AA9641005CB62C /* StarNovelXTests.m */; };
+		CD2DB74F28AA9641005CB62C /* StarNovelXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2DB74E28AA9641005CB62C /* StarNovelXUITests.m */; };
+		CD2DB75128AA9641005CB62C /* StarNovelXUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2DB75028AA9641005CB62C /* StarNovelXUITestsLaunchTests.m */; };
+		CD2DB75F28AA9718005CB62C /* WitTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2DB75E28AA9718005CB62C /* WitTabBarViewController.m */; };
+		CD2DB76528AA9A01005CB62C /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2DB76428AA9A01005CB62C /* UIColor+Extension.m */; };
+		CD2DB76928AA9A2C005CB62C /* UIColor+Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2DB76828AA9A2C005CB62C /* UIColor+Theme.m */; };
+		CD384C0228C3A45E00CECC68 /* StarNovelData in Resources */ = {isa = PBXBuildFile; fileRef = CD384C0028C3A18A00CECC68 /* StarNovelData */; };
+		CD4BF52C28B2561600C2FD67 /* KRScreenAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4BF52A28B2561600C2FD67 /* KRScreenAdapter.m */; };
+		CD4BF52F28B2578900C2FD67 /* WitBookShelfCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4BF52E28B2578900C2FD67 /* WitBookShelfCell.m */; };
+		CD4BF53228B2839300C2FD67 /* StarNovelXComponentSize.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4BF53128B2839300C2FD67 /* StarNovelXComponentSize.m */; };
+		CD4BF53528B384B200C2FD67 /* UIFont+Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4BF53428B384B200C2FD67 /* UIFont+Theme.m */; };
+		CD5B450828D60BAC000E09D6 /* WitNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5B450728D60BAB000E09D6 /* WitNetworkStatus.m */; };
+		CD5B450B28D6D964000E09D6 /* WitExploreView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5B450A28D6D964000E09D6 /* WitExploreView.m */; };
+		CD770052298A81DD00392008 /* WitTextFieldWithLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD770051298A81DD00392008 /* WitTextFieldWithLabel.m */; };
+		CD770055298AA75100392008 /* WitRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD770054298AA75100392008 /* WitRegisterViewController.m */; };
+		CD770058298AB83200392008 /* WitSearchBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD770057298AB83200392008 /* WitSearchBarView.m */; };
+		CD77005E298AB98C00392008 /* WitBookTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD77005D298AB98C00392008 /* WitBookTypeView.m */; };
+		CD770062298AC73500392008 /* WitRoundTypeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD770061298AC73500392008 /* WitRoundTypeButton.m */; };
+		CD770065298B4EB900392008 /* WitFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD770064298B4EB900392008 /* WitFindViewController.m */; };
+		CD770068298B58C500392008 /* WitRecommendView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD770067298B58C500392008 /* WitRecommendView.m */; };
+		CD77006B298B58EA00392008 /* WitRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD77006A298B58EA00392008 /* WitRecommendCell.m */; };
+		CD77006E298B620B00392008 /* WitRecommendBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = CD77006D298B620B00392008 /* WitRecommendBlock.m */; };
+		CD770071298B6A6800392008 /* WitParseRecource.m in Sources */ = {isa = PBXBuildFile; fileRef = CD770070298B6A6800392008 /* WitParseRecource.m */; };
+		CD8504E628B9209D00973DC6 /* WitAccessResources.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8504E528B9209D00973DC6 /* WitAccessResources.m */; };
+		CD8504EA28BB399900973DC6 /* WitBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8504E928BB399900973DC6 /* WitBookModel.m */; };
+		CD8504F028BB3C8800973DC6 /* WitExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8504EF28BB3C8800973DC6 /* WitExploreViewController.m */; };
+		CD8504F628BB3F9E00973DC6 /* WitBookClassifyView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8504F528BB3F9E00973DC6 /* WitBookClassifyView.m */; };
+		CD8504FD28BB44FD00973DC6 /* WitVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8504FC28BB44FD00973DC6 /* WitVerticalButton.m */; };
+		CD85050028BB4E3500973DC6 /* WitVerticalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8504FF28BB4E3500973DC6 /* WitVerticalCollectionViewCell.m */; };
+		CD85050328BB700A00973DC6 /* WitBookRecommendView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85050228BB700A00973DC6 /* WitBookRecommendView.m */; };
+		CDCA058F28C035A50082031D /* WitBookIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCA058E28C035A50082031D /* WitBookIntroViewController.m */; };
+		CDCB62D9298935080071A7BF /* WitMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCB62D8298935080071A7BF /* WitMineViewController.m */; };
+		CDCB62DD298936DF0071A7BF /* WitUserInfoBlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCB62DC298936DF0071A7BF /* WitUserInfoBlockView.m */; };
+		CDCB62E0298941FD0071A7BF /* WitUserFunctionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCB62DF298941FD0071A7BF /* WitUserFunctionItem.m */; };
+		CDCB62E32989ECDF0071A7BF /* WitLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCB62E22989ECDF0071A7BF /* WitLoginViewController.m */; };
+		CDD5FEDC28B22BFE002A2244 /* WitBookShelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD5FEDB28B22BFE002A2244 /* WitBookShelfViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD2DB74128AA9641005CB62C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD2DB71D28AA963E005CB62C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD2DB72428AA963E005CB62C;
+			remoteInfo = StarNovelX;
+		};
+		CD2DB74B28AA9641005CB62C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD2DB71D28AA963E005CB62C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD2DB72428AA963E005CB62C;
+			remoteInfo = StarNovelX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79EED5F26339838F9B2DEAC1 /* libPods-StarNovelX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StarNovelX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C10822EA015D642EE4C0E2E1 /* Pods-StarNovelX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarNovelX.debug.xcconfig"; path = "Target Support Files/Pods-StarNovelX/Pods-StarNovelX.debug.xcconfig"; sourceTree = "<group>"; };
+		CD1C6FD428C324DA0025F687 /* WitBookShelfDataBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitBookShelfDataBase.h; sourceTree = "<group>"; };
+		CD1C6FD528C324DA0025F687 /* WitBookShelfDataBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitBookShelfDataBase.m; sourceTree = "<group>"; };
+		CD25284728C816D600D40900 /* WitCatalogModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitCatalogModel.h; sourceTree = "<group>"; };
+		CD25284828C816D700D40900 /* WitCatalogModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitCatalogModel.m; sourceTree = "<group>"; };
+		CD25284A28C82B5800D40900 /* WitCatalogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitCatalogViewController.h; sourceTree = "<group>"; };
+		CD25284B28C82B5800D40900 /* WitCatalogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitCatalogViewController.m; sourceTree = "<group>"; };
+		CD25284D28C83B4100D40900 /* WitPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitPageViewController.h; sourceTree = "<group>"; };
+		CD25284E28C83B4100D40900 /* WitPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitPageViewController.m; sourceTree = "<group>"; };
+		CD25285028C846DC00D40900 /* WitBookContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitBookContentViewController.h; sourceTree = "<group>"; };
+		CD25285128C846DC00D40900 /* WitBookContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitBookContentViewController.m; sourceTree = "<group>"; };
+		CD25285328C848A000D40900 /* WitPageContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitPageContentView.h; sourceTree = "<group>"; };
+		CD25285428C848A000D40900 /* WitPageContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitPageContentView.m; sourceTree = "<group>"; };
+		CD25285628C8495800D40900 /* WitProcessResources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitProcessResources.h; sourceTree = "<group>"; };
+		CD25285728C8495800D40900 /* WitProcessResources.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitProcessResources.m; sourceTree = "<group>"; };
+		CD27E9E228CA1B390086F29B /* WitInitApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitInitApp.h; sourceTree = "<group>"; };
+		CD27E9E328CA1B390086F29B /* WitInitApp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitInitApp.m; sourceTree = "<group>"; };
+		CD27E9E528CA49C30086F29B /* WitTopMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitTopMenu.h; sourceTree = "<group>"; };
+		CD27E9E628CA49C30086F29B /* WitTopMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitTopMenu.m; sourceTree = "<group>"; };
+		CD27E9E828CA49F60086F29B /* WitMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitMenuViewController.h; sourceTree = "<group>"; };
+		CD27E9E928CA49F60086F29B /* WitMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitMenuViewController.m; sourceTree = "<group>"; };
+		CD27E9EB28CA4A1A0086F29B /* WitBottomMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitBottomMenu.h; sourceTree = "<group>"; };
+		CD27E9EC28CA4A1A0086F29B /* WitBottomMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitBottomMenu.m; sourceTree = "<group>"; };
+		CD27E9EE28CA4A330086F29B /* WitMoreMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitMoreMenu.h; sourceTree = "<group>"; };
+		CD27E9EF28CA4A330086F29B /* WitMoreMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitMoreMenu.m; sourceTree = "<group>"; };
+		CD2DB72528AA963E005CB62C /* StarNovelX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarNovelX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2DB72828AA963E005CB62C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD2DB72928AA963E005CB62C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD2DB72B28AA963E005CB62C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CD2DB72C28AA963E005CB62C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CD2DB72E28AA963F005CB62C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD2DB72F28AA963F005CB62C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD2DB73228AA963F005CB62C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD2DB73428AA9641005CB62C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD2DB73728AA9641005CB62C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD2DB73928AA9641005CB62C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2DB73A28AA9641005CB62C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD2DB74028AA9641005CB62C /* StarNovelXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarNovelXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2DB74428AA9641005CB62C /* StarNovelXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarNovelXTests.m; sourceTree = "<group>"; };
+		CD2DB74A28AA9641005CB62C /* StarNovelXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarNovelXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2DB74E28AA9641005CB62C /* StarNovelXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarNovelXUITests.m; sourceTree = "<group>"; };
+		CD2DB75028AA9641005CB62C /* StarNovelXUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarNovelXUITestsLaunchTests.m; sourceTree = "<group>"; };
+		CD2DB75D28AA9718005CB62C /* WitTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitTabBarViewController.h; sourceTree = "<group>"; };
+		CD2DB75E28AA9718005CB62C /* WitTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitTabBarViewController.m; sourceTree = "<group>"; };
+		CD2DB76328AA99FC005CB62C /* UIColor+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		CD2DB76428AA9A01005CB62C /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		CD2DB76728AA9A2C005CB62C /* UIColor+Theme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Theme.h"; sourceTree = "<group>"; };
+		CD2DB76828AA9A2C005CB62C /* UIColor+Theme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Theme.m"; sourceTree = "<group>"; };
+		CD2DB76A28AAA055005CB62C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CD384C0028C3A18A00CECC68 /* StarNovelData */ = {isa = PBXFileReference; lastKnownFileType = file; path = StarNovelData; sourceTree = "<group>"; };
+		CD4BF52A28B2561600C2FD67 /* KRScreenAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRScreenAdapter.m; sourceTree = "<group>"; };
+		CD4BF52B28B2561600C2FD67 /* KRScreenAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRScreenAdapter.h; sourceTree = "<group>"; };
+		CD4BF52D28B2578900C2FD67 /* WitBookShelfCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitBookShelfCell.h; sourceTree = "<group>"; };
+		CD4BF52E28B2578900C2FD67 /* WitBookShelfCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitBookShelfCell.m; sourceTree = "<group>"; };
+		CD4BF53028B2839300C2FD67 /* StarNovelXComponentSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarNovelXComponentSize.h; sourceTree = "<group>"; };
+		CD4BF53128B2839300C2FD67 /* StarNovelXComponentSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarNovelXComponentSize.m; sourceTree = "<group>"; };
+		CD4BF53328B384B200C2FD67 /* UIFont+Theme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+Theme.h"; sourceTree = "<group>"; };
+		CD4BF53428B384B200C2FD67 /* UIFont+Theme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Theme.m"; sourceTree = "<group>"; };
+		CD5B450628D60BAB000E09D6 /* WitNetworkStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitNetworkStatus.h; sourceTree = "<group>"; };
+		CD5B450728D60BAB000E09D6 /* WitNetworkStatus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitNetworkStatus.m; sourceTree = "<group>"; };
+		CD5B450928D6D964000E09D6 /* WitExploreView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitExploreView.h; sourceTree = "<group>"; };
+		CD5B450A28D6D964000E09D6 /* WitExploreView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitExploreView.m; sourceTree = "<group>"; };
+		CD770050298A81DD00392008 /* WitTextFieldWithLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitTextFieldWithLabel.h; sourceTree = "<group>"; };
+		CD770051298A81DD00392008 /* WitTextFieldWithLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitTextFieldWithLabel.m; sourceTree = "<group>"; };
+		CD770053298AA75100392008 /* WitRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitRegisterViewController.h; sourceTree = "<group>"; };
+		CD770054298AA75100392008 /* WitRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitRegisterViewController.m; sourceTree = "<group>"; };
+		CD770056298AB83200392008 /* WitSearchBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitSearchBarView.h; sourceTree = "<group>"; };
+		CD770057298AB83200392008 /* WitSearchBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitSearchBarView.m; sourceTree = "<group>"; };
+		CD77005C298AB98C00392008 /* WitBookTypeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitBookTypeView.h; sourceTree = "<group>"; };
+		CD77005D298AB98C00392008 /* WitBookTypeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitBookTypeView.m; sourceTree = "<group>"; };
+		CD770060298AC73500392008 /* WitRoundTypeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitRoundTypeButton.h; sourceTree = "<group>"; };
+		CD770061298AC73500392008 /* WitRoundTypeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitRoundTypeButton.m; sourceTree = "<group>"; };
+		CD770063298B4EB900392008 /* WitFindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitFindViewController.h; sourceTree = "<group>"; };
+		CD770064298B4EB900392008 /* WitFindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitFindViewController.m; sourceTree = "<group>"; };
+		CD770066298B58C500392008 /* WitRecommendView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitRecommendView.h; sourceTree = "<group>"; };
+		CD770067298B58C500392008 /* WitRecommendView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitRecommendView.m; sourceTree = "<group>"; };
+		CD770069298B58EA00392008 /* WitRecommendCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitRecommendCell.h; sourceTree = "<group>"; };
+		CD77006A298B58EA00392008 /* WitRecommendCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitRecommendCell.m; sourceTree = "<group>"; };
+		CD77006C298B620B00392008 /* WitRecommendBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitRecommendBlock.h; sourceTree = "<group>"; };
+		CD77006D298B620B00392008 /* WitRecommendBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitRecommendBlock.m; sourceTree = "<group>"; };
+		CD77006F298B6A6800392008 /* WitParseRecource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitParseRecource.h; sourceTree = "<group>"; };
+		CD770070298B6A6800392008 /* WitParseRecource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitParseRecource.m; sourceTree = "<group>"; };
+		CD8504E428B9209D00973DC6 /* WitAccessResources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitAccessResources.h; sourceTree = "<group>"; };
+		CD8504E528B9209D00973DC6 /* WitAccessResources.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitAccessResources.m; sourceTree = "<group>"; };
+		CD8504E828BB399900973DC6 /* WitBookModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitBookModel.h; sourceTree = "<group>"; };
+		CD8504E928BB399900973DC6 /* WitBookModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitBookModel.m; sourceTree = "<group>"; };
+		CD8504EE28BB3C8800973DC6 /* WitExploreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitExploreViewController.h; sourceTree = "<group>"; };
+		CD8504EF28BB3C8800973DC6 /* WitExploreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitExploreViewController.m; sourceTree = "<group>"; };
+		CD8504F428BB3F9E00973DC6 /* WitBookClassifyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitBookClassifyView.h; sourceTree = "<group>"; };
+		CD8504F528BB3F9E00973DC6 /* WitBookClassifyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitBookClassifyView.m; sourceTree = "<group>"; };
+		CD8504FB28BB44FD00973DC6 /* WitVerticalButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitVerticalButton.h; sourceTree = "<group>"; };
+		CD8504FC28BB44FD00973DC6 /* WitVerticalButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitVerticalButton.m; sourceTree = "<group>"; };
+		CD8504FE28BB4E3500973DC6 /* WitVerticalCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitVerticalCollectionViewCell.h; sourceTree = "<group>"; };
+		CD8504FF28BB4E3500973DC6 /* WitVerticalCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitVerticalCollectionViewCell.m; sourceTree = "<group>"; };
+		CD85050128BB700A00973DC6 /* WitBookRecommendView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitBookRecommendView.h; sourceTree = "<group>"; };
+		CD85050228BB700A00973DC6 /* WitBookRecommendView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitBookRecommendView.m; sourceTree = "<group>"; };
+		CD9E866928D9A41800334A4C /* SOMELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SOMELOG.md; sourceTree = "<group>"; };
+		CDCA058D28C035A50082031D /* WitBookIntroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitBookIntroViewController.h; sourceTree = "<group>"; };
+		CDCA058E28C035A50082031D /* WitBookIntroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitBookIntroViewController.m; sourceTree = "<group>"; };
+		CDCB62D7298935080071A7BF /* WitMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitMineViewController.h; sourceTree = "<group>"; };
+		CDCB62D8298935080071A7BF /* WitMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitMineViewController.m; sourceTree = "<group>"; };
+		CDCB62DB298936DF0071A7BF /* WitUserInfoBlockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitUserInfoBlockView.h; sourceTree = "<group>"; };
+		CDCB62DC298936DF0071A7BF /* WitUserInfoBlockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitUserInfoBlockView.m; sourceTree = "<group>"; };
+		CDCB62DE298941FD0071A7BF /* WitUserFunctionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitUserFunctionItem.h; sourceTree = "<group>"; };
+		CDCB62DF298941FD0071A7BF /* WitUserFunctionItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitUserFunctionItem.m; sourceTree = "<group>"; };
+		CDCB62E12989ECDF0071A7BF /* WitLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitLoginViewController.h; sourceTree = "<group>"; };
+		CDCB62E22989ECDF0071A7BF /* WitLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitLoginViewController.m; sourceTree = "<group>"; };
+		CDD5FEDA28B22BFE002A2244 /* WitBookShelfViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitBookShelfViewController.h; sourceTree = "<group>"; };
+		CDD5FEDB28B22BFE002A2244 /* WitBookShelfViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitBookShelfViewController.m; sourceTree = "<group>"; };
+		D1B7456BB9C4C219FE615545 /* Pods-StarNovelX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarNovelX.release.xcconfig"; path = "Target Support Files/Pods-StarNovelX/Pods-StarNovelX.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD2DB72228AA963E005CB62C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75BA2FCC0D9BD6C8F48BF43B /* libPods-StarNovelX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2DB73D28AA9641005CB62C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2DB74728AA9641005CB62C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24F11E9AC4BFD546D2C872A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79EED5F26339838F9B2DEAC1 /* libPods-StarNovelX.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77894008588AE16C0D229F83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C10822EA015D642EE4C0E2E1 /* Pods-StarNovelX.debug.xcconfig */,
+				D1B7456BB9C4C219FE615545 /* Pods-StarNovelX.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD1C6FD228C324660025F687 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				CD1C6FD428C324DA0025F687 /* WitBookShelfDataBase.h */,
+				CD1C6FD528C324DA0025F687 /* WitBookShelfDataBase.m */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		CD2DB71C28AA963E005CB62C = {
+			isa = PBXGroup;
+			children = (
+				CD384C0028C3A18A00CECC68 /* StarNovelData */,
+				CD2DB72728AA963E005CB62C /* StarNovelX */,
+				CD2DB74328AA9641005CB62C /* StarNovelXTests */,
+				CD2DB74D28AA9641005CB62C /* StarNovelXUITests */,
+				CD2DB72628AA963E005CB62C /* Products */,
+				77894008588AE16C0D229F83 /* Pods */,
+				24F11E9AC4BFD546D2C872A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD2DB72628AA963E005CB62C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD2DB72528AA963E005CB62C /* StarNovelX.app */,
+				CD2DB74028AA9641005CB62C /* StarNovelXTests.xctest */,
+				CD2DB74A28AA9641005CB62C /* StarNovelXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD2DB72728AA963E005CB62C /* StarNovelX */ = {
+			isa = PBXGroup;
+			children = (
+				CD9E866928D9A41800334A4C /* SOMELOG.md */,
+				CD2DB76A28AAA055005CB62C /* PrefixHeader.pch */,
+				CDCB62D32989335D0071A7BF /* Mine */,
+				CD8504E728BB398100973DC6 /* Book */,
+				CDD5FED728B228D7002A2244 /* BookShelf */,
+				CD8504EB28BB3ADD00973DC6 /* Explore */,
+				CD2DB76028AA999D005CB62C /* Base */,
+				CD2DB72828AA963E005CB62C /* AppDelegate.h */,
+				CD2DB72928AA963E005CB62C /* AppDelegate.m */,
+				CD2DB72B28AA963E005CB62C /* SceneDelegate.h */,
+				CD2DB72C28AA963E005CB62C /* SceneDelegate.m */,
+				CD2DB72E28AA963F005CB62C /* ViewController.h */,
+				CD2DB72F28AA963F005CB62C /* ViewController.m */,
+				CD2DB73128AA963F005CB62C /* Main.storyboard */,
+				CD2DB73428AA9641005CB62C /* Assets.xcassets */,
+				CD2DB73628AA9641005CB62C /* LaunchScreen.storyboard */,
+				CD2DB73928AA9641005CB62C /* Info.plist */,
+				CD2DB73A28AA9641005CB62C /* main.m */,
+			);
+			path = StarNovelX;
+			sourceTree = "<group>";
+		};
+		CD2DB74328AA9641005CB62C /* StarNovelXTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD2DB74428AA9641005CB62C /* StarNovelXTests.m */,
+			);
+			path = StarNovelXTests;
+			sourceTree = "<group>";
+		};
+		CD2DB74D28AA9641005CB62C /* StarNovelXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD2DB74E28AA9641005CB62C /* StarNovelXUITests.m */,
+				CD2DB75028AA9641005CB62C /* StarNovelXUITestsLaunchTests.m */,
+			);
+			path = StarNovelXUITests;
+			sourceTree = "<group>";
+		};
+		CD2DB76028AA999D005CB62C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CD27E9E228CA1B390086F29B /* WitInitApp.h */,
+				CD27E9E328CA1B390086F29B /* WitInitApp.m */,
+				CD5B450528D60B55000E09D6 /* Networking */,
+				CD1C6FD228C324660025F687 /* DataBase */,
+				CD8504F728BB42D300973DC6 /* Utils */,
+				CDC1EA5728B7E71E000EACBD /* Resource */,
+				CD4BF52828B2561600C2FD67 /* Third */,
+				CD2DB76228AA99EF005CB62C /* Theme */,
+				CD2DB76128AA99A2005CB62C /* Tabbar */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CD2DB76128AA99A2005CB62C /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				CD2DB75D28AA9718005CB62C /* WitTabBarViewController.h */,
+				CD2DB75E28AA9718005CB62C /* WitTabBarViewController.m */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		CD2DB76228AA99EF005CB62C /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				CD4BF53028B2839300C2FD67 /* StarNovelXComponentSize.h */,
+				CD4BF53128B2839300C2FD67 /* StarNovelXComponentSize.m */,
+				CD2DB76328AA99FC005CB62C /* UIColor+Extension.h */,
+				CD2DB76428AA9A01005CB62C /* UIColor+Extension.m */,
+				CD2DB76728AA9A2C005CB62C /* UIColor+Theme.h */,
+				CD2DB76828AA9A2C005CB62C /* UIColor+Theme.m */,
+				CD4BF53328B384B200C2FD67 /* UIFont+Theme.h */,
+				CD4BF53428B384B200C2FD67 /* UIFont+Theme.m */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		CD4BF52828B2561600C2FD67 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				CD4BF52928B2561600C2FD67 /* ScreenAdapter */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		CD4BF52928B2561600C2FD67 /* ScreenAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				CD4BF52B28B2561600C2FD67 /* KRScreenAdapter.h */,
+				CD4BF52A28B2561600C2FD67 /* KRScreenAdapter.m */,
+			);
+			path = ScreenAdapter;
+			sourceTree = "<group>";
+		};
+		CD5B450528D60B55000E09D6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CD5B450628D60BAB000E09D6 /* WitNetworkStatus.h */,
+				CD5B450728D60BAB000E09D6 /* WitNetworkStatus.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CD77005F298AC61600392008 /* View_new */ = {
+			isa = PBXGroup;
+			children = (
+				CD77005C298AB98C00392008 /* WitBookTypeView.h */,
+				CD77005D298AB98C00392008 /* WitBookTypeView.m */,
+				CD770060298AC73500392008 /* WitRoundTypeButton.h */,
+				CD770061298AC73500392008 /* WitRoundTypeButton.m */,
+				CD770066298B58C500392008 /* WitRecommendView.h */,
+				CD770067298B58C500392008 /* WitRecommendView.m */,
+				CD77006C298B620B00392008 /* WitRecommendBlock.h */,
+				CD77006D298B620B00392008 /* WitRecommendBlock.m */,
+				CD770069298B58EA00392008 /* WitRecommendCell.h */,
+				CD77006A298B58EA00392008 /* WitRecommendCell.m */,
+			);
+			path = View_new;
+			sourceTree = "<group>";
+		};
+		CD8504E728BB398100973DC6 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				CDCA058B28C035330082031D /* Model */,
+				CDCA058A28C0352E0082031D /* View */,
+				CDCA058C28C0354D0082031D /* Controller */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		CD8504EB28BB3ADD00973DC6 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				CD77005F298AC61600392008 /* View_new */,
+				CD8504EC28BB3BF000973DC6 /* View */,
+				CD8504ED28BB3C0600973DC6 /* Controller */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		CD8504EC28BB3BF000973DC6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD8504F428BB3F9E00973DC6 /* WitBookClassifyView.h */,
+				CD8504F528BB3F9E00973DC6 /* WitBookClassifyView.m */,
+				CD85050128BB700A00973DC6 /* WitBookRecommendView.h */,
+				CD85050228BB700A00973DC6 /* WitBookRecommendView.m */,
+				CD8504FE28BB4E3500973DC6 /* WitVerticalCollectionViewCell.h */,
+				CD8504FF28BB4E3500973DC6 /* WitVerticalCollectionViewCell.m */,
+				CD5B450928D6D964000E09D6 /* WitExploreView.h */,
+				CD5B450A28D6D964000E09D6 /* WitExploreView.m */,
+				CD770056298AB83200392008 /* WitSearchBarView.h */,
+				CD770057298AB83200392008 /* WitSearchBarView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD8504ED28BB3C0600973DC6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD8504EE28BB3C8800973DC6 /* WitExploreViewController.h */,
+				CD8504EF28BB3C8800973DC6 /* WitExploreViewController.m */,
+				CD770063298B4EB900392008 /* WitFindViewController.h */,
+				CD770064298B4EB900392008 /* WitFindViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD8504F728BB42D300973DC6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CD8504FB28BB44FD00973DC6 /* WitVerticalButton.h */,
+				CD8504FC28BB44FD00973DC6 /* WitVerticalButton.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CDC1EA5728B7E71E000EACBD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CD8504E428B9209D00973DC6 /* WitAccessResources.h */,
+				CD8504E528B9209D00973DC6 /* WitAccessResources.m */,
+				CD25285628C8495800D40900 /* WitProcessResources.h */,
+				CD25285728C8495800D40900 /* WitProcessResources.m */,
+				CD77006F298B6A6800392008 /* WitParseRecource.h */,
+				CD770070298B6A6800392008 /* WitParseRecource.m */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CDCA058A28C0352E0082031D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD25285328C848A000D40900 /* WitPageContentView.h */,
+				CD25285428C848A000D40900 /* WitPageContentView.m */,
+				CD27E9E528CA49C30086F29B /* WitTopMenu.h */,
+				CD27E9E628CA49C30086F29B /* WitTopMenu.m */,
+				CD27E9EB28CA4A1A0086F29B /* WitBottomMenu.h */,
+				CD27E9EC28CA4A1A0086F29B /* WitBottomMenu.m */,
+				CD27E9EE28CA4A330086F29B /* WitMoreMenu.h */,
+				CD27E9EF28CA4A330086F29B /* WitMoreMenu.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDCA058B28C035330082031D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD8504E828BB399900973DC6 /* WitBookModel.h */,
+				CD8504E928BB399900973DC6 /* WitBookModel.m */,
+				CD25284728C816D600D40900 /* WitCatalogModel.h */,
+				CD25284828C816D700D40900 /* WitCatalogModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDCA058C28C0354D0082031D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CDCA058D28C035A50082031D /* WitBookIntroViewController.h */,
+				CDCA058E28C035A50082031D /* WitBookIntroViewController.m */,
+				CD25284A28C82B5800D40900 /* WitCatalogViewController.h */,
+				CD25284B28C82B5800D40900 /* WitCatalogViewController.m */,
+				CD25284D28C83B4100D40900 /* WitPageViewController.h */,
+				CD25284E28C83B4100D40900 /* WitPageViewController.m */,
+				CD25285028C846DC00D40900 /* WitBookContentViewController.h */,
+				CD25285128C846DC00D40900 /* WitBookContentViewController.m */,
+				CD27E9E828CA49F60086F29B /* WitMenuViewController.h */,
+				CD27E9E928CA49F60086F29B /* WitMenuViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CDCB62D32989335D0071A7BF /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				CDCB62D6298933720071A7BF /* Controller */,
+				CDCB62D52989336E0071A7BF /* View */,
+				CDCB62D4298933680071A7BF /* Model */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		CDCB62D4298933680071A7BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDCB62D52989336E0071A7BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDCB62DB298936DF0071A7BF /* WitUserInfoBlockView.h */,
+				CDCB62DC298936DF0071A7BF /* WitUserInfoBlockView.m */,
+				CDCB62DE298941FD0071A7BF /* WitUserFunctionItem.h */,
+				CDCB62DF298941FD0071A7BF /* WitUserFunctionItem.m */,
+				CD770050298A81DD00392008 /* WitTextFieldWithLabel.h */,
+				CD770051298A81DD00392008 /* WitTextFieldWithLabel.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDCB62D6298933720071A7BF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CDCB62D7298935080071A7BF /* WitMineViewController.h */,
+				CDCB62D8298935080071A7BF /* WitMineViewController.m */,
+				CDCB62E12989ECDF0071A7BF /* WitLoginViewController.h */,
+				CDCB62E22989ECDF0071A7BF /* WitLoginViewController.m */,
+				CD770053298AA75100392008 /* WitRegisterViewController.h */,
+				CD770054298AA75100392008 /* WitRegisterViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CDD5FED728B228D7002A2244 /* BookShelf */ = {
+			isa = PBXGroup;
+			children = (
+				CDD5FED928B22917002A2244 /* View */,
+				CDD5FED828B2290E002A2244 /* Controller */,
+			);
+			path = BookShelf;
+			sourceTree = "<group>";
+		};
+		CDD5FED828B2290E002A2244 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CDD5FEDA28B22BFE002A2244 /* WitBookShelfViewController.h */,
+				CDD5FEDB28B22BFE002A2244 /* WitBookShelfViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CDD5FED928B22917002A2244 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD4BF52D28B2578900C2FD67 /* WitBookShelfCell.h */,
+				CD4BF52E28B2578900C2FD67 /* WitBookShelfCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD2DB72428AA963E005CB62C /* StarNovelX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2DB75428AA9641005CB62C /* Build configuration list for PBXNativeTarget "StarNovelX" */;
+			buildPhases = (
+				670121D07E31C4479C7B5434 /* [CP] Check Pods Manifest.lock */,
+				CD2DB72128AA963E005CB62C /* Sources */,
+				CD2DB72228AA963E005CB62C /* Frameworks */,
+				CD2DB72328AA963E005CB62C /* Resources */,
+				8DB6B3D5BA907C839BF926F5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarNovelX;
+			productName = StarNovelX;
+			productReference = CD2DB72528AA963E005CB62C /* StarNovelX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD2DB73F28AA9641005CB62C /* StarNovelXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2DB75728AA9641005CB62C /* Build configuration list for PBXNativeTarget "StarNovelXTests" */;
+			buildPhases = (
+				CD2DB73C28AA9641005CB62C /* Sources */,
+				CD2DB73D28AA9641005CB62C /* Frameworks */,
+				CD2DB73E28AA9641005CB62C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD2DB74228AA9641005CB62C /* PBXTargetDependency */,
+			);
+			name = StarNovelXTests;
+			productName = StarNovelXTests;
+			productReference = CD2DB74028AA9641005CB62C /* StarNovelXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD2DB74928AA9641005CB62C /* StarNovelXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2DB75A28AA9641005CB62C /* Build configuration list for PBXNativeTarget "StarNovelXUITests" */;
+			buildPhases = (
+				CD2DB74628AA9641005CB62C /* Sources */,
+				CD2DB74728AA9641005CB62C /* Frameworks */,
+				CD2DB74828AA9641005CB62C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD2DB74C28AA9641005CB62C /* PBXTargetDependency */,
+			);
+			name = StarNovelXUITests;
+			productName = StarNovelXUITests;
+			productReference = CD2DB74A28AA9641005CB62C /* StarNovelXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD2DB71D28AA963E005CB62C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CD2DB72428AA963E005CB62C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					CD2DB73F28AA9641005CB62C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CD2DB72428AA963E005CB62C;
+					};
+					CD2DB74928AA9641005CB62C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CD2DB72428AA963E005CB62C;
+					};
+				};
+			};
+			buildConfigurationList = CD2DB72028AA963E005CB62C /* Build configuration list for PBXProject "StarNovelX" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD2DB71C28AA963E005CB62C;
+			productRefGroup = CD2DB72628AA963E005CB62C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD2DB72428AA963E005CB62C /* StarNovelX */,
+				CD2DB73F28AA9641005CB62C /* StarNovelXTests */,
+				CD2DB74928AA9641005CB62C /* StarNovelXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD2DB72328AA963E005CB62C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD384C0228C3A45E00CECC68 /* StarNovelData in Resources */,
+				CD2DB73828AA9641005CB62C /* LaunchScreen.storyboard in Resources */,
+				CD2DB73528AA9641005CB62C /* Assets.xcassets in Resources */,
+				CD2DB73328AA963F005CB62C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2DB73E28AA9641005CB62C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2DB74828AA9641005CB62C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		670121D07E31C4479C7B5434 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarNovelX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DB6B3D5BA907C839BF926F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarNovelX/Pods-StarNovelX-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarNovelX/Pods-StarNovelX-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarNovelX/Pods-StarNovelX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD2DB72128AA963E005CB62C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD25285528C848A000D40900 /* WitPageContentView.m in Sources */,
+				CD85050028BB4E3500973DC6 /* WitVerticalCollectionViewCell.m in Sources */,
+				CDCB62DD298936DF0071A7BF /* WitUserInfoBlockView.m in Sources */,
+				CD2DB73028AA963F005CB62C /* ViewController.m in Sources */,
+				CD5B450828D60BAC000E09D6 /* WitNetworkStatus.m in Sources */,
+				CD1C6FD628C324DA0025F687 /* WitBookShelfDataBase.m in Sources */,
+				CD770065298B4EB900392008 /* WitFindViewController.m in Sources */,
+				CD27E9F028CA4A330086F29B /* WitMoreMenu.m in Sources */,
+				CD770058298AB83200392008 /* WitSearchBarView.m in Sources */,
+				CD85050328BB700A00973DC6 /* WitBookRecommendView.m in Sources */,
+				CD8504F028BB3C8800973DC6 /* WitExploreViewController.m in Sources */,
+				CD4BF52C28B2561600C2FD67 /* KRScreenAdapter.m in Sources */,
+				CD8504FD28BB44FD00973DC6 /* WitVerticalButton.m in Sources */,
+				CD27E9ED28CA4A1A0086F29B /* WitBottomMenu.m in Sources */,
+				CD2DB76928AA9A2C005CB62C /* UIColor+Theme.m in Sources */,
+				CD25284928C816D700D40900 /* WitCatalogModel.m in Sources */,
+				CD770055298AA75100392008 /* WitRegisterViewController.m in Sources */,
+				CD770052298A81DD00392008 /* WitTextFieldWithLabel.m in Sources */,
+				CD27E9EA28CA49F60086F29B /* WitMenuViewController.m in Sources */,
+				CD25285828C8495800D40900 /* WitProcessResources.m in Sources */,
+				CD770071298B6A6800392008 /* WitParseRecource.m in Sources */,
+				CD8504EA28BB399900973DC6 /* WitBookModel.m in Sources */,
+				CD770062298AC73500392008 /* WitRoundTypeButton.m in Sources */,
+				CD27E9E428CA1B390086F29B /* WitInitApp.m in Sources */,
+				CD8504E628B9209D00973DC6 /* WitAccessResources.m in Sources */,
+				CD770068298B58C500392008 /* WitRecommendView.m in Sources */,
+				CD77006E298B620B00392008 /* WitRecommendBlock.m in Sources */,
+				CD77006B298B58EA00392008 /* WitRecommendCell.m in Sources */,
+				CD4BF53228B2839300C2FD67 /* StarNovelXComponentSize.m in Sources */,
+				CD27E9E728CA49C30086F29B /* WitTopMenu.m in Sources */,
+				CD2DB76528AA9A01005CB62C /* UIColor+Extension.m in Sources */,
+				CD5B450B28D6D964000E09D6 /* WitExploreView.m in Sources */,
+				CD25285228C846DC00D40900 /* WitBookContentViewController.m in Sources */,
+				CD8504F628BB3F9E00973DC6 /* WitBookClassifyView.m in Sources */,
+				CD2DB72A28AA963E005CB62C /* AppDelegate.m in Sources */,
+				CD2DB73B28AA9641005CB62C /* main.m in Sources */,
+				CDCB62E32989ECDF0071A7BF /* WitLoginViewController.m in Sources */,
+				CD4BF52F28B2578900C2FD67 /* WitBookShelfCell.m in Sources */,
+				CDCB62E0298941FD0071A7BF /* WitUserFunctionItem.m in Sources */,
+				CD4BF53528B384B200C2FD67 /* UIFont+Theme.m in Sources */,
+				CD77005E298AB98C00392008 /* WitBookTypeView.m in Sources */,
+				CD25284F28C83B4100D40900 /* WitPageViewController.m in Sources */,
+				CD2DB72D28AA963E005CB62C /* SceneDelegate.m in Sources */,
+				CDCB62D9298935080071A7BF /* WitMineViewController.m in Sources */,
+				CDCA058F28C035A50082031D /* WitBookIntroViewController.m in Sources */,
+				CD2DB75F28AA9718005CB62C /* WitTabBarViewController.m in Sources */,
+				CDD5FEDC28B22BFE002A2244 /* WitBookShelfViewController.m in Sources */,
+				CD25284C28C82B5800D40900 /* WitCatalogViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2DB73C28AA9641005CB62C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2DB74528AA9641005CB62C /* StarNovelXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2DB74628AA9641005CB62C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2DB75128AA9641005CB62C /* StarNovelXUITestsLaunchTests.m in Sources */,
+				CD2DB74F28AA9641005CB62C /* StarNovelXUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD2DB74228AA9641005CB62C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD2DB72428AA963E005CB62C /* StarNovelX */;
+			targetProxy = CD2DB74128AA9641005CB62C /* PBXContainerItemProxy */;
+		};
+		CD2DB74C28AA9641005CB62C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD2DB72428AA963E005CB62C /* StarNovelX */;
+			targetProxy = CD2DB74B28AA9641005CB62C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD2DB73128AA963F005CB62C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD2DB73228AA963F005CB62C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD2DB73628AA9641005CB62C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD2DB73728AA9641005CB62C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD2DB75228AA9641005CB62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD2DB75328AA9641005CB62C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD2DB75528AA9641005CB62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C10822EA015D642EE4C0E2E1 /* Pods-StarNovelX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2TV8K577L;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = StarNovelX/PrefixHeader.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StarNovelX/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "繁星小说";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wit.StarNovelX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD2DB75628AA9641005CB62C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B7456BB9C4C219FE615545 /* Pods-StarNovelX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2TV8K577L;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = StarNovelX/PrefixHeader.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StarNovelX/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "繁星小说";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wit.StarNovelX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD2DB75828AA9641005CB62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2TV8K577L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wit.StarNovelXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarNovelX.app/StarNovelX";
+			};
+			name = Debug;
+		};
+		CD2DB75928AA9641005CB62C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2TV8K577L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wit.StarNovelXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarNovelX.app/StarNovelX";
+			};
+			name = Release;
+		};
+		CD2DB75B28AA9641005CB62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2TV8K577L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wit.StarNovelXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarNovelX;
+			};
+			name = Debug;
+		};
+		CD2DB75C28AA9641005CB62C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2TV8K577L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wit.StarNovelXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarNovelX;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD2DB72028AA963E005CB62C /* Build configuration list for PBXProject "StarNovelX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2DB75228AA9641005CB62C /* Debug */,
+				CD2DB75328AA9641005CB62C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2DB75428AA9641005CB62C /* Build configuration list for PBXNativeTarget "StarNovelX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2DB75528AA9641005CB62C /* Debug */,
+				CD2DB75628AA9641005CB62C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2DB75728AA9641005CB62C /* Build configuration list for PBXNativeTarget "StarNovelXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2DB75828AA9641005CB62C /* Debug */,
+				CD2DB75928AA9641005CB62C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2DB75A28AA9641005CB62C /* Build configuration list for PBXNativeTarget "StarNovelXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2DB75B28AA9641005CB62C /* Debug */,
+				CD2DB75C28AA9641005CB62C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD2DB71D28AA963E005CB62C /* Project object */;
+}

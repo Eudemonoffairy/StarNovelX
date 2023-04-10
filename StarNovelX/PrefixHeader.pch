@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  StarNovelX
+//
+//  Created by Martin Liu on 2022/8/15.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Masonry/Masonry.h"
+#import "KRScreenAdapter.h"
+#import "StarNovelXComponentSize.h"
+#import "UIFont+Theme.h"
+#import "UIColor+Theme.h"
+#import "Ono/Ono.h"
+#import "WitNetworkStatus.h"
+#import "AFNetworking/AFNetworking.h"
+
+/* ----------------------standardUserDefaults----------------------- */
+///  是否第一次加载 APP 的标志
+#define FIRST_LOAD @"firstLoad"
+///  是否为网格模式
+#define BOOK_IS_GRID @"isGrid"
+
+/**   addObserver 名称记录
+ * SHOWBOOKINTRO        显示书本介绍页
+ * REFRESHBOOKSHELF     刷新书架
+ * TOGGLEMENU           切换菜单
+ * CHANGEBRIGHTNESS     改变亮度
+ */
+
+
+
+
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,1 @@
+../../../SensorsAnalyticsSDK/SensorsAnalyticsSDK/AutoTrack/AppClick/UIApplication+AutoTrack.h

@@ -1,0 +1,1 @@
+../../../SensorsAnalyticsSDK/SensorsAnalyticsSDK/AutoTrack/ElementInfo/SAViewElementInfo.h

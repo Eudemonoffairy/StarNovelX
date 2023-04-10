@@ -1,0 +1,1 @@
+../../../SensorsAnalyticsSDK/SensorsAnalyticsSDK/Core/Builder/EventObject/SAItemEventObject.h

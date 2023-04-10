@@ -1,0 +1,1 @@
+../../../SensorsAnalyticsSDK/SensorsAnalyticsSDK/Encrypt/SAConfigOptions+Encrypt.h

@@ -1,0 +1,1 @@
+../../../SensorsAnalyticsSDK/SensorsAnalyticsSDK/JSBridge/SAJavaScriptBridgeManager.h

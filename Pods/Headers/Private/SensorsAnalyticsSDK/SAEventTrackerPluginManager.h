@@ -1,0 +1,1 @@
+../../../SensorsAnalyticsSDK/SensorsAnalyticsSDK/Core/EventTrackerPlugin/SAEventTrackerPluginManager.h

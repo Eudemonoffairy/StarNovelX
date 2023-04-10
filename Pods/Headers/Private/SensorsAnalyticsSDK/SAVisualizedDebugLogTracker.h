@@ -1,0 +1,1 @@
+../../../SensorsAnalyticsSDK/SensorsAnalyticsSDK/Visualized/VisualProperties/DebugLog/SAVisualizedDebugLogTracker.h

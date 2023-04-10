@@ -1,0 +1,1 @@
+../../../SensorsAnalyticsSDK/SensorsAnalyticsSDK/RemoteConfig/SARemoteConfigEventObject.h

@@ -1,0 +1,1 @@
+../../../SensorsAnalyticsSDK/SensorsAnalyticsSDK/Visualized/SAVisualizedObjectSerializerManager.h
